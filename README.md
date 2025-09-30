@@ -1,4 +1,4 @@
-# Secure-Application-Deployment-on-AWS
+# Secure Application Deployment on AWS
 
 <img width="911" height="767" alt="image" src="https://github.com/user-attachments/assets/cd30f203-5b82-4724-ad5d-92104cba419a" />
 
