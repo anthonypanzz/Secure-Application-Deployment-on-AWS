@@ -3,7 +3,7 @@
 <img width="911" height="767" alt="image" src="https://github.com/user-attachments/assets/cd30f203-5b82-4724-ad5d-92104cba419a" />
 
 
-Web applications can be launched with a focus on speed rather than security.
+## Web applications can be launched with a focus on speed rather than security.
 
 The outcome of this is leaving key cloud resources exposed directly to the public internet.
 
@@ -23,7 +23,8 @@ A vulnerable infrastructure example includes:
 
 # Redesigning the Architecture with Security Best Practices (Security Pillar):
 
-Network Security Architecture:
+## Network Security Architecture:
+
 * Public tier: Only hosts components that face the internet, such as load balancers and bastion hosts.
 * Private tier: Separates application servers and databases from direct access to the internet.
 * Multi-AZ deployment: Ensures consistent availability and resilience against failures.
@@ -36,7 +37,7 @@ Network Security Architecture:
 
 ---
 
-Private EC2 + ALB + Bastion Access:
+## Private EC2 + ALB + Bastion Access:
 
 * To securely run the application backend, the EC2 instance is inside a private subnet.
 * Since EC2 won’t have a public IP, use a Bastion Host in the public subnet for administrative access. 
@@ -50,7 +51,7 @@ Private EC2 + ALB + Bastion Access:
 ---
 
 
-Private RDS and S3:
+## Private RDS and S3:
 
 * This design focuses on securing the data layer by deploying a private RDS MySQL database and setting up a private S3 bucket for static assets. 
 * Both resources follow the principle of least privilege. 
@@ -62,7 +63,7 @@ Private RDS and S3:
 ---
 
 
-AWS Web Application Firewall:
+## AWS Web Application Firewall:
 
 * This design strengthens application-layer security.
 * A WAF identifies and prevents harmful HTTP requests from reaching the application, including threats like SQL injection, cross-site scripting attacks, and automated bot traffic.
