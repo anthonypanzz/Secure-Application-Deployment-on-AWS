@@ -13,7 +13,9 @@ Utilizing the Security Pillar from the AWS Well-Architected Framework:
 
 As an AWS Solutions Architect, it is crucial to work with customers and to take a vulnerable cloud environment and redesign it into a secure, production-ready architecture using AWS-native services and best practices.
 
-A vulnerable infrastructure example includes:
+---
+
+## A vulnerable infrastructure example includes:
 
 - EC2 instance in public subnet with unrestricted SSH and HTTP access, SSH access from anywhere, and no IAM role-based access controls.
 - Relational Database Service (RDS) is exposed directly to the internet, has weak authentication, no encryption, and overly permissive access.
