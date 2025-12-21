@@ -11,7 +11,7 @@ Web apps face significant risks, including unauthorized access, data breaches, a
 
 Utilizing the Security Pillar from the AWS Well-Architected Framework:
 
-As an AWS Solutions Architect, it is crucial to work with customers and to take a vulnerable cloud environment and redesign it into a secure, production-ready architecture using AWS-native services and best practices.
+As an AWS Cloud Engineer, it is crucial to work with customers and to take a vulnerable cloud environment and redesign it into a secure, production-ready architecture using AWS-native services and best practices.
 
 ---
 
