@@ -5,7 +5,7 @@
 
 ## Web applications can be launched with a focus on speed rather than security.
 
-The outcome of this is leaving key cloud resources exposed directly to the public internet.
+## The outcome of this is leaving key cloud resources exposed directly to the public internet.
 
 Web apps face significant risks, including unauthorized access, data breaches, and compliance issues. 
 
