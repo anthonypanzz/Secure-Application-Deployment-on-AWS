@@ -7,11 +7,11 @@
 
 ## The outcome of this is leaving key cloud resources exposed directly to the public internet.
 
-Web apps face significant risks, including unauthorized access, data breaches, and compliance issues. 
+## Web apps face significant risks, including unauthorized access, data breaches, and compliance issues. 
 
-Utilizing the Security Pillar from the AWS Well-Architected Framework:
+## Utilizing the Security Pillar from the AWS Well-Architected Framework:
 
-As an AWS Cloud Engineer, it is crucial to work with customers and to take a vulnerable cloud environment and redesign it into a secure, production-ready architecture using AWS-native services and best practices.
+As an AWS Cloud Engineer, it is crucial to work with customers and to take a vulnerable cloud environment to redesign and engineer it into a secure, production-ready architecture using AWS-native services and best practices.
 
 ---
 
